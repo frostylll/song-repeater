@@ -5,7 +5,7 @@ CLIENT_ID = '-' # replace with your own client id
 CLIENT_SECRET = '-' # replace with your own client secret
 REDIRECT_URI = '-' # replace with your own redirect url/uri
 
-SCOPE = 'playlist-modify-public'
+SCOPE = 'playlist-modify-public playlist-modify-private'
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=CLIENT_SECRET,
